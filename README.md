@@ -1,1 +1,1 @@
-https://github.com/TimBad1/rsschool-cv/cv.md
+https://github.com/TimBad1/rsschool-cv/cv
