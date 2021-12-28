@@ -26,7 +26,7 @@
 	
 		<main class="main">
 			<div class="main__left">
-				<section class="section skills">
+				<section class="section skills" id="soft-skills">
 					<h2 class="headline">Soft skills</h2>
 			
 					<ul class="skills__list">
@@ -60,7 +60,7 @@
 					</ul>
 				</section>
 				
-				<section class="section contacts">
+				<section class="section contacts" id="contacts">
 					<h2 class="headline contacts__heading">Contacts</h2>
 					<ul class="contacts__list">
 						<li class="contacts__item">
@@ -127,7 +127,7 @@
 			</div>
 	
 			<div class="main__right">
-				<section class="section about">
+				<section class="section about" id="about">
 					<h2 class="headline">
 						About me
 					</h2>
@@ -137,7 +137,7 @@
 					</p>
 				</section>
 	
-				<section class="section education">
+				<section class="section education" id="education">
 					<h2 class="headline">Education</h2>
 			
 					<ul class="education__list">
@@ -212,8 +212,27 @@
 						</li>
 					</ul>
 				</section>
+
+				<section class="section code" id="code">
+					<h2 class="headline code__headline">Code examples</h2>
+
+					<pre>
+let button = document.querySelector('.callback__btn');
+let message = document.getElementById('send-mail');
+button.setAttribute('disabled', 'disabled');
+message.classList.add('is-open');
+
+form.reset();
+
+setTimeout(getFlash, 3000)
+function getFlash() {
+		button.removeAttribute('disabled');
+		message.classList.remove('is-open');
+}
+					</pre>
+				</section>
 				
-				<section class="section prof-skills">
+				<section class="section prof-skills" id="prof-skills">
 					<h2 class="headline prof-skills__headline">Professional skills</h2>
 			
 					<ul class="skills__list prof-skills__list">
@@ -267,7 +286,27 @@
 			<nav class="nav">
 				<ul class="nav__list">
 					<li class="nav__item">
+						<a href="#soft-skills" class="nav__link">Soft skills</a>
+					</li>
 
+					<li class="nav__item">
+						<a href="#contacts" class="nav__link">Contacts</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#about" class="nav__link">About me</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#education" class="nav__link">Education</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#code" class="nav__link">Code examples</a>
+					</li>
+					
+					<li class="nav__item">
+						<a href="#prof-skills" class="nav__link">Professional skills</a>
 					</li>
 
 					<li class="nav__item">
