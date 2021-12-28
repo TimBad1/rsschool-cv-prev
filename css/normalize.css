@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+:focus {
+outline: none;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2d2d2d;
+  background-color: #999;
+}
+
+:root {
+  --color-orange: #fecb00;
+
+}
+
+
+h1, h2, h3, p, ul {
+  margin-top: 0;
+}
+
+li {
+  list-style: none;  
+}
+
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+a {
+  background-color: transparent;
+  color: inherit;
+}
+
+img {
+  border-style: none;
+}
