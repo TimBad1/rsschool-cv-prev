@@ -23,7 +23,7 @@ body {
 	--color-bg: #292a2f;
 	--color-bg-scale: #ccc;
 	--color-white: #fff;
-	--top: -250px
+	--top: -150px
 }
 
 /* HEADER */
@@ -43,7 +43,7 @@ body {
 .me {
 	width: 62%;
   padding: 50px 20px;
-  margin-top: 100px;
+  margin-top: auto;
 	margin-bottom: auto;
 	background-color: var(--color-orange);
 	
@@ -97,7 +97,7 @@ body {
 }
 
 .section {
-	padding: 50px 0 50px 15%;
+	padding: 50px 0 0 15%;
 }
 
 .main__left .headline {
@@ -215,6 +215,35 @@ a.contacts__descr:focus {
 
 .education__item:not(:last-child){
   margin-bottom: 48px;
+}
+
+.code__descr {
+  margin-right: 30px;
+  border-radius: 6px;
+}
+
+.languages__subcontainer {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.languages__descr:first-child {
+  padding-left: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.languages__descr:first-child::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 1rem;
+  width: 1rem;
+  background-color: var(--color-border);
+  border-radius: 50%;
 }
 
 .main__right .skills__list {

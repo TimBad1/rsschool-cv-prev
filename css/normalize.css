@@ -25,6 +25,7 @@ li {
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
+  background-color: #f6f8fa;
 }
 
 a {
