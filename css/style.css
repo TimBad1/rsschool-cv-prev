@@ -32,11 +32,13 @@ body {
 }
 
 .photo {
-	/* display: block; */
-	width: 38%;
-	height: auto;
+  width: 38%;
+	height: 600px;
+  object-fit: cover;
   filter: grayscale(1);
+  object-position: center;
 }
+
 
 .me {
 	width: 62%;
@@ -80,6 +82,9 @@ body {
 
 .main__right {
 	width: 62%;
+  position: relative;
+  top: var(--top);
+  margin-bottom: var(--top);
 }
 
 .headline {
@@ -137,13 +142,8 @@ body {
   fill: var(--color-white);
 }
 
-
 .contacts {
   padding-bottom: 50px;
-}
-
-.contacts__heading {
-  margin-left: 94px;
 }
 
 .contacts__list {
@@ -176,15 +176,13 @@ body {
 .contacts__descr {
   margin-bottom: 0;
   line-height: 1.6em;
+  transition: color .3s linear;
 }
 
-/* .contacts__phone {
-	background: url('../img/phone.svg') no-repeat contain;
-} */
-
-
-
-
+a.contacts__descr:hover,
+a.contacts__descr:focus {
+  color: var(--color-orange);
+}
 
 .main__right {
 	position: relative;
@@ -198,12 +196,6 @@ body {
   line-height: 2em;
   font-weight: 600;
 }
-/* 
-.education__list {
-  margin-bottom: 0;
-  padding-left: 35px;
-  padding-right: 50px;
-} */
 
 .education__headline {
   margin-bottom: 7px;
@@ -278,4 +270,24 @@ body {
 
 .prof-skills__66pr::before {
   width: 66%;
+}
+
+/* FOOTER */
+.footer {
+  padding: 50px 5.7%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  
 }
