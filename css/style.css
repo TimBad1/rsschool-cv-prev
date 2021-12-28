@@ -134,14 +134,62 @@ body {
 }
 
 .soft-skills::before svg path {
-  fill: var(--color-white):
+  fill: var(--color-white);
 }
+
+
+.contacts {
+  padding-bottom: 50px;
+}
+
+.contacts__heading {
+  margin-left: 94px;
+}
+
+.contacts__list {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.contacts__item {
+  padding-left: 30px;
+  position: relative;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+
+.contacts__headline,
+.contacts__descr {
+  padding-left: .75rem;
+}
+
+.contacts__headline {
+  margin-bottom: 0;
+  background-color: #292a2f;
+  line-height: 1.8em;
+  font-weight: 700;
+}
+
+.contacts__descr {
+  margin-bottom: 0;
+  line-height: 1.6em;
+}
+
+/* .contacts__phone {
+	background: url('../img/phone.svg') no-repeat contain;
+} */
+
+
+
 
 
 .main__right {
 	position: relative;
-	top: var(--top);
-	margin-bottom: var(--top);
+	/* top: var(--top);
+	margin-bottom: var(--top); */
 }
 
 .about__descr {
@@ -181,9 +229,14 @@ body {
 	columns: 2;
 }
 
+.prof-skills__item {
+	margin-bottom: 1rem;
+}
+
 .prof-skills__descr {
   margin-bottom: 0;
-  line-height: 3.5rem;
+	padding-bottom: 1rem;
+  line-height: 2rem;
 }
 
 .prof-skills__scale {
