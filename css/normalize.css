@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+:focus {
+outline: none;
+}
+
+h1, h2, h3, p, ul, ol {
+  margin-top: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: .75em; /* 2 */
+  background-color: #f6f8fa;
+}
+
+a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  border-style: none;
+}
