@@ -1,2 +1,1 @@
-### https://github.com/TimBad1/rsschool-cv/cv
-### https://github.com/TimBad1/rsschool-cv/
+### https://timbad1.github.io/rsschool-cv/cv
