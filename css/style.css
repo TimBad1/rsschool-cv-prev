@@ -326,6 +326,19 @@ a.contacts__descr:focus {
   width: 200px;
 }
 
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer__descr {
+  margin-bottom: 0;
+  color: #000;
+}
+
 .nav__list {
   padding-left: 0;
   margin-bottom: 0;
