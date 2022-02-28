@@ -8,13 +8,7 @@
 * E-mail: term1t88@mail.ru
 
 ## About me
-* Teamwork
-* Thinking visually
-* Communication
-* Open-mindedness
-* Accountability
-* Patience
-* Analytical mind
+I'm 34 years old. in 2021 I studied layout and made an interesting project. In November, I started learning JS. It turned out to be very interesting. I would like to develop in web development
 
 ## Skills
 * HTML5
