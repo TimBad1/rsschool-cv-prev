@@ -1,1 +1,1 @@
-### https://timbad1.github.io/rsschool-cv/cv
+### https://timbad1.github.io/rsschool-cv-prev/
